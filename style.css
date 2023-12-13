@@ -69,15 +69,33 @@ body {
  */
 
  .header {
-  
+  div:nth-child(1) {
+  background: #cdb4db;
+}
+  div:nth-child(2) {
+  background: #ffc8dd;
  }
+  div:nth-child(3) {
+  background: #ffafcc
+}
+  div:nth-child(4) {
+  background: #bde0fe;
+}
+  div:nth-child(5) {
+  background: #0c0a3e;
+}
+  div:nth-child(6) {
+  background: #797979;
+}
 
  .skills {
-
+  display: flex;
+  justify-content: center;
  }
 
  .my_work {
-  
+  display: flex;
+
  }
 
  .about_me {
@@ -85,5 +103,5 @@ body {
  }
 
 .contact_me {
-
+  display: flex;
 }
